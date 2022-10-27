@@ -15,3 +15,7 @@ ul li {
 	color: white;
 }
 
+img {
+	border-width:20px;
+	border-color:teal;
+}
