@@ -2,18 +2,23 @@
 /* CSS Document */
 
 body {
-	background-color:green;
+	background-color:gray;
 }
 
 /*nooooteeeerrr!*/
 
-* {
-	color:black;
-}
+
+/*fixed is great for UI*/
+/*.animation is how to change stuff*/
 
 ul li {
 	color: white;
 }
+tr{
+	background-color:lightgreen;
+	color:black;
+}
+div{background-color:aqua;}
 
 img {
 	border-width:20px;
