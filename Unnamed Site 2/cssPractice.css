@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color:gray;
+	background-color:whitesmoke;
 	width:100%;
 }
 
@@ -20,14 +20,26 @@ table{
 	background-color:lightgreen;
 	color:black;
 }
-div{
+
+
+.mainBanner{
 	width:100%;
 	background-color:darkgreen;
 	align-items: flex-end;
 	color:white;
 }
 
-img {
-	border-width:20px;
-	border-color:teal;
+.aboutMe{
+	href:"aboutMe.html";
+}
+
+.placeholderPicture{
+	width:20%;
+	height:100px;
+	background-color: dimgray;
+	color:white;
+}
+
+table .placeholderPicture{
+	flex-wrap: wrap;
 }
