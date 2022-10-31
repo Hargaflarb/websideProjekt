@@ -3,6 +3,7 @@
 
 body {
 	background-color:gray;
+	width:100%;
 }
 
 /*nooooteeeerrr!*/
@@ -14,11 +15,17 @@ body {
 ul li {
 	color: white;
 }
-tr{
+table{
+	width:100%;
 	background-color:lightgreen;
 	color:black;
 }
-div{background-color:aqua;}
+div{
+	width:100%;
+	background-color:darkgreen;
+	align-items: flex-end;
+	color:white;
+}
 
 img {
 	border-width:20px;
