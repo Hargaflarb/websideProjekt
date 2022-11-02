@@ -16,6 +16,7 @@ ul li {
 	color: white;
 }
 table{
+
 	width:100%;
 	background-color:lightgreen;
 	color:black;
@@ -23,23 +24,23 @@ table{
 
 
 .mainBanner{
-	width:100%;
+
 	background-color:darkgreen;
 	align-items: flex-end;
 	color:white;
+	text-align: right;
 }
 
-.aboutMe{
-	href:"aboutMe.html";
-}
 
 .placeholderPicture{
 	width:20%;
 	height:100px;
 	background-color: dimgray;
 	color:white;
-}
-
-table .placeholderPicture{
-	flex-wrap: wrap;
+	display:inline;
+	overflow:hidden;
+	margin:4%;
+	float:left;
+	align-items: center;
+	text-align:center;
 }
