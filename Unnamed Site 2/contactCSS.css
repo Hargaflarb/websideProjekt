@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+.topThing{
+	background-color: darkgreen;
+	width: 100%;
+	padding: 5px;
+}
 .smallMenu{
 	background-color:greenyellow;
 	color:black;

@@ -3,7 +3,6 @@
 
 body {
 	background-color:whitesmoke;
-	height: 800px;
 }
 
 /*nooooteeeerrr!*/
@@ -49,12 +48,16 @@ img{
 }
 
 .placeholderPicture{
-	align-content: flex-start;
 	margin-top:50px;
-	margin-bottom:50px;
+	margin-bottom:70px;
 }
 
 a{color:black;}
+
+.endOfPage h2{
+	color:white;
+	margin-left: 20px;
+}
 
 .placeholderPicture a{
 	color:white;
@@ -76,4 +79,8 @@ a{color:black;}
 	background-color:darkgreen;
 	color:white;
 	height:150px;
+}
+
+.endOfPage div{
+	width:30%;
 }

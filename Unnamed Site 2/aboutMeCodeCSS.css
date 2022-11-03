@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{height:1000px;}
+body{height:600px;}
 
 .smallMenu{
 	background-color:greenyellow;
@@ -10,12 +10,11 @@ body{height:1000px;}
 	height:200px;
 	width:100px;
 	text-align: center;
-	border-width: 1px;
-	border-color: white;
 }
 
 .smallMenu tr{
 	margin:5px;
+	display:block;
 }
 
 h1{
@@ -32,14 +31,22 @@ h1{
 .placeholder{
 	background-color:dimgray;
 	width:25%;
-	height:32%;
+	height:50%;
 	margin-right: 20px;
 	margin-left:10px;
 	float: right;
 	color:dimgray;
 }
 
+.button{
+	background-color: lightgreen;
+	color:black;
+	text-align: center;
+	margin-left:45%;
+}
+
 .textBox{
 	margin-left:120px;
 	margin-bottom: 20px;
+	text-align:center;
 }
