@@ -3,7 +3,7 @@
 
 body {
 	background-color:whitesmoke;
-	width:100%;
+	height: 800px;
 }
 
 /*nooooteeeerrr!*/
@@ -16,31 +16,64 @@ ul li {
 	color: white;
 }
 table{
-
-	width:100%;
 	background-color:lightgreen;
 	color:black;
 }
+img{
+	float:left;
+}
 
+.topMenu{
+	float:center;
+	width:60%;
+	margin-left:80px;
+	height:50px;
+}
+
+.searchbar{
+	width:150px;
+	height:5px;
+	float:right;
+	background-color: white;
+	color:gray;
+	align-text:center;
+}
 
 .mainBanner{
-
 	background-color:darkgreen;
 	align-items: flex-end;
 	color:white;
 	text-align: right;
+	height:200px;
+	
 }
 
-
 .placeholderPicture{
-	width:20%;
-	height:100px;
-	background-color: dimgray;
+	align-content: flex-start;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+a{color:black;}
+
+.placeholderPicture a{
 	color:white;
-	display:inline;
-	overflow:hidden;
-	margin:4%;
-	float:left;
-	align-items: center;
-	text-align:center;
+}
+
+.placeholderPicture table{
+	border:20px hidden;
+	background-color: dimgray;
+	height:150px;
+}
+
+.placeholderPicture th{
+	width:2%;
+	margin: 200px;
+}
+
+.endOfPage{
+	width:100%;
+	background-color:darkgreen;
+	color:white;
+	height:150px;
 }

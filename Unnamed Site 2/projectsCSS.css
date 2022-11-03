@@ -6,4 +6,10 @@
 	position:fixed;
 	height:200px;
 	width:100px;
+	text-align: center;
+}
+
+.smallMenu tr{
+	margin:5px;
+	display:block;
 }
