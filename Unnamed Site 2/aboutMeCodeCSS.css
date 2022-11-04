@@ -17,7 +17,8 @@ body{height:600px;}
 	display:block;
 }
 
-h1{
+
+h1, h2{
 	text-align: center;
 	margin-left:10%;
 	margin-top:50px;	
@@ -49,4 +50,60 @@ h1{
 	margin-left:120px;
 	margin-bottom: 20px;
 	text-align:center;
+}
+
+h1 h2 p1{
+	font: sans-serif;
+}
+
+.banner{
+	background-color: dimgray;
+	color: white;
+	width: 60%;
+	height: 30%;
+	margin-left: 25%;
+	text-align: end;
+}
+
+.placeholderPicture{
+	margin-top:50px;
+	margin-bottom:70px;
+	margin-left: 20%;
+	margin-right:10%;
+}
+
+.placeholderPicture a{
+	color:white;
+}
+
+.placeholderPicture table{
+	border:20px;
+	background-color: dimgray;
+	height:150px;
+}
+
+.placeholderPicture th{
+	width:2%;
+	margin: 200px;
+}
+
+.smallPicture{
+	width:230px;
+	height: 180px;
+	background-color: dimgray;
+}
+.thingieRight{
+	float:right;
+	margin-right:10%;
+	clear:left;
+}
+
+.thingieLeft{
+	float:left;
+	margin-left:140px;
+	clear:right;
+}
+
+.contact{
+	margin-left: 30%;
 }

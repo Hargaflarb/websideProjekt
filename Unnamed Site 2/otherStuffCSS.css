@@ -1,9 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
+.topThing{
+	background-color: darkgreen;
+	width: 100%;
+	padding: 5px;
+}
 .smallMenu{
 	background-color:greenyellow;
 	color:black;
 	position:fixed;
 	height:200px;
 	width:100px;
+	text-align: center;
+}
+
+.smallMenu tr{
+	margin:5px;
+	display:block;
 }

@@ -40,11 +40,9 @@ img{
 
 .mainBanner{
 	background-color:darkgreen;
-	align-items: flex-end;
 	color:white;
 	text-align: right;
 	height:200px;
-	
 }
 
 .placeholderPicture{
@@ -83,4 +81,8 @@ a{color:black;}
 
 .endOfPage div{
 	width:30%;
+}
+
+h1 h2 p1{
+	font: sans-serif;
 }
